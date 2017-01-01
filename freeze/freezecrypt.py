@@ -69,5 +69,5 @@ def unT2(y):
     return x
 
 
-def unmix(z, y):
+def unmix2(z, y):
     return unT2((z - 0x10f874f3 - y) & 0xFFFFFFFF)

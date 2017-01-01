@@ -28,7 +28,7 @@ from eudplib import (
     IsConstExpr,
     EUDVariable,
 )
-from freezecrypt import (
+from .freezecrypt import (
     T2,
     tryUnT,
 )

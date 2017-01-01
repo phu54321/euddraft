@@ -29,25 +29,25 @@ import random
 # Basic mixer
 
 from eudplib.core.eudfunc.eudfuncn import EUDFuncN
-from freezeTrigHelper import (
+from .freezeTrigHelper import (
     getTriggerExecutingPlayers,
     getExpectedTriggerCount
 )
 
-from freezehelper import (
+from .freezehelper import (
     obfuscatedValueAssigner,
     assignerMerge,
     writeAssigner
 )
 
-from freezecrypt import (
+from .freezecrypt import (
     T,
     T2,
     tryUnT,
     mix,
     mix2,
     unT2,
-    unmix
+    unmix2
 )
 
 
