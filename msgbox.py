@@ -49,7 +49,7 @@ try:
     prototype = WINFUNCTYPE(HWND, HWND)
     SetForegroundWindow = prototype(("SetForegroundWindow", windll.user32))
     prototype = WINFUNCTYPE(SHORT, c_int)
-    GetAsyncKeyState = prototype(("SetForegroundWindow", windll.user32))
+    GetAsyncKeyState = prototype(("GetAsyncKeyState", windll.user32))
 
     def IsThisForeground():
         return GetForegroundWindow() == GetConsoleWindow()
