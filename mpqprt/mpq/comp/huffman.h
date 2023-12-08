@@ -16,11 +16,12 @@
 // Defines
 
 #include <stddef.h>
+#include <stdint.h>
 
 #define INSERT_ITEM    1                    
 #define SWITCH_ITEMS   2                    // Switch the item1 and item2
 
-#define PTR_NOT(ptr)  (THTreeItem *)(~(unsigned long)(ptr))
+#define PTR_NOT(ptr)  (THTreeItem *)(~(uintptr_t)(ptr))
 #define PTR_PTR(ptr)  ((THTreeItem *)(ptr))
 #define PTR_INT(ptr)  (ptrdiff_t)(ptr)
 
