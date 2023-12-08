@@ -8,8 +8,8 @@
 #include <vector>
 #include <set>
 #include <cstring>
-#include <assert.h>
 #include <utility>
+#include <stdexcept>
 
 #include "cmpdcmp.h"
 #include "keycalc.h"

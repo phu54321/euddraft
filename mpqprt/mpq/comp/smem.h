@@ -5,7 +5,7 @@
 #define S_MEM_INCLUDED
 
 #if (defined(_WIN32) || defined(WIN32)) && !defined(NO_WINDOWS_H)
-#include <windows.h>
+#include <Windows.h>
 #else
 #include "wintypes.h"
 #endif
